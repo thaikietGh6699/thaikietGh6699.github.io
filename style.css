@@ -1,0 +1,264 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: mall;
+    background-color: #ccc ;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: #fff;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    height: 1500px;
+}
+
+.header{
+    margin: 0 20px;
+    background-color: #dfdfdf;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__icon{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.header__icon-a{
+    margin: 0 3px;
+    font-size: 1.2rem;
+}
+
+.header__icon-a-img{
+    width: 20px;
+}
+
+.header__icon-aa{
+    margin: 0 5px;
+    display: flex;
+    float: left;
+    height: 20px;
+    align-items: center;
+}
+
+.header__accout{
+    font-size: 1.4rem;
+    margin-right: 7px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__accout-login{
+    text-decoration: none;
+    color: #888;
+    margin: 0 5px;
+}
+
+.header__accout-space{
+    border-right: 1px solid #000;
+    margin-right: 2px;
+    height: 80%;
+}
+.header__accout-signin{
+    text-decoration: none;
+    color: #888;
+    margin: 0 5px;
+}
+
+.logo{
+    margin: 30px 0 0 50px;
+    width: 660px;
+}
+.logo_img{
+    width: 90%;
+}
+.cart{
+    display: flex;
+    text-align: center;
+    margin:50px 20px 0 146px;
+    justify-content: flex-end;
+    width: 200px;
+    background-color: #dfdfdf;
+    border-radius: 2px;    
+}
+.cart-img{
+    width: 80px;
+    height: 60px;
+    border-right: 2px solid #ccc;
+    padding-right: 10px;
+}
+.cart-info{
+    font-size: 1rem;
+    color: red;
+    
+}
+#info{
+    margin: 10px 5px 0 15px;
+}
+#info:last-child{
+    margin-top: 5px;
+}
+
+.header__{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.xxx{
+    height: 200px;
+    
+}
+.support{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 20px 0 0;
+}
+.support-heaphone{
+    display: flex;
+    margin-right: 15px;
+}
+
+.support-img{
+    width: 30px;
+}
+
+#inputt{
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(226, 226, 226);
+}
+.supportinput{
+    border: 1px solid #ccc;
+    height: 20px;
+    padding: 0;
+}
+.support-heaphone p{
+    padding-top: 3px;
+}
+
+/* container */
+
+
+.container-select{
+    display: flex;
+    list-style: none;
+    background-color: #000;
+    margin:0 20px 15px;
+    padding: 0;
+}
+.container-select-option{
+    color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-right: 1px dashed #fff;
+    padding: 0 40px;
+    cursor: default;
+}
+.container-select-option i{
+    display: flex;
+    align-items: center;
+    padding-left: 10px ;
+}
+.container-select-option:last-child{
+    border: none;
+}
+.container-select-option:not(:last-child):hover{
+    background-color: orange;
+}
+.product{
+    
+    margin: 25px 20px 0 20px;
+    display: flex;
+}
+.product-menu{
+    border: 1px solid #888;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    height: 380px;
+    width: 245px;
+}
+.product-menu-list{
+    margin: 0 10px 0 10px;
+    padding: 0 0 5px ;
+    list-style: none;
+    border-bottom: 1px dashed #ccc;
+    color: blue;
+    cursor: pointer;
+}
+.product-menu-list h3{
+    margin: 5px 0 0 0;
+    margin-left: 5px;
+    cursor: default;
+}
+.product-menu-list-sp{
+    margin: 10px 0 0 20px;
+    font-weight: 400;
+}
+.product-menu-list-icon{
+    color: red;
+}
+.product-menu-list-sp:hover{
+    color: red;
+}
+
+
+.product-menu_space{
+    border-right: 1px solid #000;
+    padding: 20px;
+    height: 740px;
+}
+
+
+.product-list{
+    width: calc(100% - 50px);
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0 30px 0 20px;
+    height: 250px;
+}
+
+.product-list-item{
+    text-align: center;
+    width: calc(25% - 10px);
+    margin: 10px 5px;
+    padding: 10px 0;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    box-shadow: 2px;
+}
+
+.product-list-item-link{
+    text-decoration: none;
+}
+
+.product-list-item-img{
+    width: calc(100% - 20px);
+    height: 300px;
+    
+}
+.product-list-item-name{
+    margin: 5px 0px;
+    color: red;
+}
+.product-list-item-price{
+    color: #000;
+}
+
+.product-list-item:hover{
+    background-color: #ccc;
+}
