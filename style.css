@@ -164,7 +164,7 @@ p{
     display: flex;
     align-items: center;
     border-right: 1px dashed #fff;
-    padding: 0 50px;
+    padding: 0 0px;
     cursor: default;
 }
 .container-select-option i{
