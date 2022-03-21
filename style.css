@@ -160,11 +160,11 @@ p{
 }
 .container-select-option{
     color: #fff;
-    height: 70px;
+    height: 66px;
     display: flex;
     align-items: center;
     border-right: 1px dashed #fff;
-    padding: 0 40px;
+    padding: 0 30px;
     cursor: default;
 }
 .container-select-option i{
